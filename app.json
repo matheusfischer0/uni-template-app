@@ -1,24 +1,28 @@
 {
   "expo": {
-    "name": "template-login-app",
-    "slug": "template-login-app",
+    "name": "uni-template-app",
+    "slug": "uni-template-app",
+    "scheme": "myapp",
     "version": "1.0.0",
+    "scheme": "uni-template-app",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#09090A"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#09090A"
       }
     },
     "web": {
